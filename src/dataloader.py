@@ -22,9 +22,9 @@ class HairNetDataset(Dataset):
         self.train_flag = train_flag
         self.noise_flag = noise_flag
         self.toTensor = transforms.ToTensor()
-        train_path = "/content/drive/MyDrive/HairNet" + "/data/index/train.txt"
-        test_path = "/content/drive/MyDrive/HairNet" + "/data/index/test.txt"
-        self.data_path = "/content/drive/MyDrive/HairNet" + "/data/"
+        train_path = "/content/drive/MyDrive/HairNet" + "/data/dataa/index/train.txt"
+        test_path = "/content/drive/MyDrive/HairNet" + "/data//dataa/index/test.txt"
+        self.data_path = "/content/drive/MyDrive/HairNet" + "/data/dataa"
         self.convdata_path = "/content/drive/MyDrive/HairNet" + "/convdata/"
         # generate dataset
         if self.train_flag == 1:
