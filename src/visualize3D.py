@@ -80,5 +80,6 @@ def show3DhairPlotByStrands(strands):
     ax.set_xlim3d([avgx - RADIUS, avgx + RADIUS])
     ax.set_ylim3d([avgy - RADIUS, avgy + RADIUS])
     ax.set_zlim3d([avgz - RADIUS, avgz + RADIUS])
+    plt.savefig("test.pdf")
     plt.show()
-    plt.savefig('res.png')
+
