@@ -10,7 +10,7 @@ from preprocessing import gasuss_noise
 def demo(weight_path, interp_factor, img_path):
     print("This is the programme of demo.")
     # load model
-    print("Building Network...")
+    #print("Building Network...")
     net = Net()
     # net.cuda()
     net.load_state_dict(torch.load(weight_path, map_location="cpu"))
